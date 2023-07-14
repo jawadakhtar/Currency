@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A6E88FFF-95FA-46CA-8193-DAADE13FC639}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDomain", "UnitTests\TestDomain.csproj", "{9C862707-D4BC-4E6F-B100-6C260A0E9ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{F94A4577-AE52-4855-A4A8-708C26518AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E88FFF-95FA-46CA-8193-DAADE13FC639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E88FFF-95FA-46CA-8193-DAADE13FC639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E88FFF-95FA-46CA-8193-DAADE13FC639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E88FFF-95FA-46CA-8193-DAADE13FC639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C862707-D4BC-4E6F-B100-6C260A0E9ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C862707-D4BC-4E6F-B100-6C260A0E9ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C862707-D4BC-4E6F-B100-6C260A0E9ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C862707-D4BC-4E6F-B100-6C260A0E9ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94A4577-AE52-4855-A4A8-708C26518AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94A4577-AE52-4855-A4A8-708C26518AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94A4577-AE52-4855-A4A8-708C26518AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94A4577-AE52-4855-A4A8-708C26518AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87D57FFC-F56C-420A-94BD-0A09971CEA3E}
+	EndGlobalSection
+EndGlobal
